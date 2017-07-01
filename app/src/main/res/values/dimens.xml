@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="list_place_textSize">13sp</dimen>
+    <dimen name="list_address_textSize">12sp</dimen>
+    <dimen name="tab_textSize">12sp</dimen>
+    <dimen name="list_item_height">105dp</dimen>
+    <dimen name="list_image_width">120dp</dimen>
+    <dimen name="detailed_image_width">240dp</dimen>
+    <dimen name="detailed_image_height">240dp</dimen>
+    <dimen name="detailed_text_padding">25dp</dimen>
+    <dimen name="listItemLayoutMargin">10dp</dimen>
+    <dimen name="listItemCardViewMargin">5dp</dimen>
+    <dimen name="listItemTextPadding">5dp</dimen>
+    <dimen name="listDetailsAboutTextSize">25sp</dimen>
+    <dimen name="splashItemMargin">20dp</dimen>
+    <dimen name="splashItemTextSize">40sp</dimen>
+</resources>

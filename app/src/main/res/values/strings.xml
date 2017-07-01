@@ -1,0 +1,526 @@
+<resources>
+    <string name="app_name">Menlo Lookaround</string>
+
+    <string name="name_var">placeName</string>
+    <string name="address_var">placeAddress</string>
+    <string name="desc_var">placeDescription</string>
+    <string name="img_var">placeImage</string>
+    <string name="site_var">placeSite</string>
+    <string name="loc_var">placeLocation</string>
+
+    <string name="about">About</string>
+    <string name="more">For More Info</string>
+    <string name="webpage">Website</string>
+
+    <string name="map">Locate</string>
+    <string name="sights">Sights</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="landmarks">Landmarks</string>
+    <string name="coffee">Coffee Shops</string>
+
+    <string name="menloPark">Menlo Park</string>
+    <string name="homeOfFB">Home Of Facebook</string>
+
+
+    <!-- Strings for all Restaurants -->
+
+    <!-- Restaurant No. 1 -->
+    <string name="R1_name_Evvia">Evvia</string>
+    <string name="R1_address_Evvia">420 Emerson St, Palo Alto, CA 94301-1604</string>
+    <string name="R1_desc_Evvia">Sister restaurant of Kokkari, Evvia has been serving beautiful and
+        elegant Greek cuisine since 1995. Fabulous fish, savory roasted meats, and sun-soaked
+        vegetables are jazzed up with a spritz of lemon, a little olive oil, and herbs.
+        There is perfection in simplicity.</string>
+    <string name="R1_site_Evvia">https://evvia.net/</string>
+    <string name="R1_location_Evvia">37.4450585, -122.2338338</string>
+
+    <!-- Restaurant No. 2 -->
+    <string name="R2_name_Orens">Oren\'s Hummus Shop</string>
+    <string name="R2_address_Orens">261 University Ave, Palo Alto, CA 94301-1714</string>
+    <string name="R2_desc_Orens">Fresh and healthy is the name of the game here, where delicious
+        bites are fired up with all natural ingredients and a lot of homemade love.</string>
+    <string name="R2_site_Orens">http://www.orenshummus.com/</string>
+    <string name="R2_location_Orens">37.445717, -122.1643617</string>
+
+    <!-- Restaurant No. 3 -->
+    <string name="R3_name_Refuge">The Refuge</string>
+    <string name="R3_address_Refuge">Crane Street, Menlo Park, CA</string>
+    <string name="R3_desc_Refuge">The REFUGE thrives in the quiet, unassuming towns of San Carlos,
+        CA and Menlo Park, CA where the hand-carved, meltingly tender, boldly flavored navel
+        pastrami is sending shockwaves through the gastronomic consciousness of patrons who call
+        it “the greatest this planet will see in some time.</string>
+    <string name="R3_site_Refuge">http://www.refugesc.com/</string>
+    <string name="R3_location_Refuge">37.4515986, -122.1947601</string>
+
+    <!-- Restaurant No. 4 -->
+    <string name="R4_name_Tamarine">Tamarine Restaurant</string>
+    <string name="R4_address_Tamarine">546 University Ave, Palo Alto, CA 94301-1901</string>
+    <string name="R4_desc_Tamarine">Tamarine is a contemporary Vietnamese restaurant that features
+        the light but flavor-intensive culinary delicacies of Vietnam. The restaurant offers a
+        menu based on small plates, promoting the Vietnamese tradition of the \'shared\' meal in
+        which food is shared and enjoyed with those close. Tamarine\'s small plate entrees are
+        enjoyed with the pairing of a variety of aromatic, flavor infused rice, designed to be
+        mixed and matched to create a truly unique flavor experience. Along with culinary delicacies
+        of Vietnam, the restaurant showcases the works of emerging artists from Vietnam and other
+        Southeast Asian countries.</string>
+    <string name="R4_site_Tamarine">https://tamarinerestaurant.com/</string>
+    <string name="R4_location_Tamarine">37.4488055, -122.2283774</string>
+
+    <!-- Restaurant No. 5 -->
+    <string name="R5_name_MenloGrill">Menlo Grill Bistro and Bar</string>
+    <string name="R5_address_MenloGrill">100 El Camino Real, Menlo Park, CA 94025-5235</string>
+    <string name="R5_desc_MenloGrill">A classic American grill with a warm and inviting neighborhood
+        feel. The relaxed setting offers casual, yet sophisticated, dining with a menu that
+        highlights regional and seasonal ingredients. An extensive wine-by-the-glass and craft brew
+        selection is also featured.Open for breakfast, lunch, dinner and late night snacks.</string>
+    <string name="R5_site_MenloGrill">http://www.menlogrill.com/</string>
+    <string name="R5_location_MenloGrill">37.447625, -122.2417501</string>
+
+    <!-- Restaurant No. 6 -->
+    <string name="R6_name_Sundance">Sundance The Steakhouse</string>
+    <string name="R6_address_Sundance">1921 El Camino Real, Palo Alto, CA 94306-1122</string>
+    <string name="R6_desc_Sundance">Since its opening in 1974, prime steaks and martinis have never
+        gone out of style at this Palo Alto institution. The atmosphere is very clubby with
+        fireplaces, dark wood, sports memorabilia and plush leather booths tucked into the many
+        nooks throughout the dining room. Famous for their slow-roasted prime rib &amp; hand-cut
+        U.S.D.A Prime Steaks, they also offer fresh seafood, cold water lobster tail &amp; succulent
+        shellfish. The 23 oz. Bone-In Rib eye Steak is the \"Boss\' Favorite\" while the Double Cut
+        Filet Mignon runs a close second. Sundance is respected for serving the best food money can
+        buy coupled with value &amp; simplicity – a welcome relief for serious food &amp; steak
+        aficionados. The menu is supported by an award-winning wine list that features over 400
+        selections focusing on highly allocated Napa Valley Cabernets &amp; Sonoma Pinot Noirs.
+        Exceptional ratings &amp; numerous restaurant awards rank Sundance the Steakhouse as a true
+        dining destination.</string>
+    <string name="R6_site_Sundance">http://www.menlogrill.com/</string>
+    <string name="R6_location_Sundance">37.4285178, -122.2196353</string>
+
+    <!-- Restaurant No. 7 -->
+    <string name="R7_name_Madera">Madera</string>
+    <string name="R7_address_Madera">2825 Sand Hill Road, Menlo Park, CA 94025</string>
+    <string name="R7_desc_Madera">Madera Restaurant Honored with One Star by Michelin and Wine
+        Spectator\'s Best of Award of Excellence 2012. A comfortably elegant ambiance, picturesque
+        views and outdoor terraces welcome guests and Silicon Valley locals to Madera. Featuring an
+        open artisan wood-burning kitchen and extensive wine list, Madera serves rustic American
+        cuisine that celebrates the culinary traditions of the Bay Area In addition to indoor and
+        outdoor dining, Madera offers two private dining rooms with private terraces and cozy
+        fireplaces. The Lemon Room seats up to 10 guests, and the Orange Room up to 14 guests. This
+        Menlo Park restaurant is open daily for breakfast, lunch and dinner and for Sunday brunch as
+        well.</string>
+    <string name="R7_site_Madera">http://www.maderasandhill.com/</string>
+    <string name="R7_location_Madera">37.4197281, -122.2150898</string>
+
+    <!-- Restaurant No. 8 -->
+    <string name="R8_name_Flea">Flea Street Cafe</string>
+    <string name="R8_address_Flea">3607 Alameda de las Pulgas, West Menlo Park, CA 94025</string>
+    <string name="R8_desc_Flea">A restaurant which makes a difference by using food and wine raised,
+        harvested, and produced sustainably and regionally. Buying locally provides great quality,
+        boosts our economy, protects our farmland, enhances our local food systems, and keeps us
+        and our environment healthy. We support and use as many organic ingredients as possible-those
+        produced without petrochemicals, artificial coloring, growth stimulants, antibiotics or
+        pesticides.</string>
+    <string name="R8_site_Flea">https://www.cooleatz.com/flea-st-cafe</string>
+    <string name="R8_location_Flea">37.4318449, -122.203307</string>
+
+    <!-- Restaurant No. 9 -->
+    <string name="R9_name_Stacks">Stacks</string>
+    <string name="R9_address_Stacks">600 Santa Cruz Ave, Menlo Park, CA 94025-4503</string>
+    <string name="R9_desc_Stacks">A restaurant whose menu items, the simple American classics, are
+        homemade with farm fresh eggs, real butter, and heavy cream. Our fruits and vegetables are
+        market fresh. We use only the highest quality of Midwest Hormel meat products, such as our
+        apple-wood smoked bacon and our honey hams. We use the famous Aidells\' chicken apple sausage,
+        and our burgers are #1 USDA Choice Angus, fresh, never frozen.</string>
+    <string name="R9_site_Stacks">http://www.stacksrestaurant.com/HP_static.html</string>
+    <string name="R9_location_Stacks">37.4534159, -122.1855036</string>
+
+    <!-- Restaurant No. 10 -->
+    <string name="R10_name_SqueezeIn">Squeeze In</string>
+    <string name="R10_address_SqueezeIn">3710 Florence St, Redwood City, CA 94063–4418</string>
+    <string name="R10_desc_SqueezeIn">At just 10 feet, 3 inches wide, and with only 39 seats, guests
+        would literally have to \'squeeze in\' to enjoy their breakfast at the little restaurant. As
+        the list of omelette options grew, so did the popularity of the restaurant, and by the mid
+        80\'s it was considered a true Truckee institution. Not some business, not a restaurant,
+        THIS restaurant: the Squeeze In. Between the scrumptious food, the signatures on the wall,
+        and the undeniable hippie vibe, they knew that it was one day their destiny.</string>
+    <string name="R10_site_SqueezeIn">https://www.squeezein.com/</string>
+    <string name="R10_location_SqueezeIn">37.4787187, -122.1891855</string>
+
+
+    <!-- Strings for all Sights -->
+
+    <!-- Sight No. 1 -->
+    <string name="S1_name_Facebook">Facebook Headquarters</string>
+    <string name="S1_address_Facebook">Facebook Headquarters, 1 Hacker Way, Menlo Park, CA, USA</string>
+    <string name="S1_desc_Facebook">Whether you \'like\' it or not, Facebook has pretty much taken
+        over the world and all of our social lives just within the past few years, and it all
+        started in the small city of Menlo Park. An iconic Silicon Valley site and hometown success,
+        the original Facebook Headquarters is a must-see if you\'re visiting the Peninsula. Snap a
+        pic next to the big thumbs-up and be THAT person on your high school friends\' news feeds.</string>
+    <string name="S1_site_Facebook">https://www.facebook.com/</string>
+    <string name="S1_location_Facebook">37.4847086, -122.1499346</string>
+
+    <!-- Sight No. 2 -->
+    <string name="S2_name_Keplers">Kepler\'s Books</string>
+    <string name="S2_address_Keplers">Kepler\'s Books, 1010 El Camino Real, Menlo Park, CA, USA</string>
+    <string name="S2_desc_Keplers">Dating back to 1955, this independent bookstore is a local
+        landmark. Due to the decline of sales at bookstores in general, Kepler\'s found itself in the
+        same situation as many bookstores and had been forced to close in 2005. Thousands of loyal
+        customers and local community members responded with demonstrations on the plaza and, within
+        weeks, Kepler\'s was back! With several events happening all the time, it isn\'t uncommon to
+        see well-known authors at a signing. Local celebs like Betsy Franco [James Franco\'s mom] and
+        even James himself have also been known to stop at Kepler\’s.</string>
+    <string name="S2_site_Keplers">http://www.keplers.com/</string>
+    <string name="S2_location_Keplers">37.453569, -122.1843557</string>
+
+    <!-- Sight No. 3 -->
+    <string name="S3_name_CheekyMToys">Cheeky Monkey Toys</string>
+    <string name="S3_address_CheekyMToys">Cheeky Monkey Toys, 640 Santa Cruz Ave, Menlo Park, CA, USA</string>
+    <string name="S3_desc_CheekyMToys">Locally owned by Anna and Dexter Chow, Cheeky Monkey Toys is
+        a paradise for kids of all ages. Lining the front counters, it\'s like a real life Zonko\'s
+        Joke Shop with fun little gag gifts like fake vomit and whoopee cushions for the immature
+        inner child in all of us. From Legos and Hot Wheels to all the latest in Princess dress-up
+        chic, this mom-and-pop store has got it all and more.</string>
+    <string name="S3_site_CheekyMToys">https://www.cheekymonkeytoys.com/</string>
+    <string name="S3_location_CheekyMToys">37.4528571, -122.1839578</string>
+
+    <!-- Sight No. 4 -->
+    <string name="S4_name_SharonPark">Sharon Park</string>
+    <string name="S4_address_SharonPark">Sharon Park, 1100 Monte Rosa Drive, Menlo Park, CA, USA</string>
+    <string name="S4_desc_SharonPark">With such amazing weather in the Bay Area, sometimes you just
+        want to be outside to soak in all in. Just before the Stanford Hills, Sharon Park is a
+        hidden oasis and a well-kept local secret. Just off of Sand Hill Road and tucked behind some
+        trees, the park is centered around a gorgeous peaceful lake with grassy areas ideal for an
+        afternoon picnic. A popular spot among folks with kids, the park has a small playground for
+        the youngsters and a quiet gazebo on the lake for Mom and Dad.</string>
+    <string name="S4_site_SharonPark">null</string>
+    <string name="S4_location_SharonPark">37.4238917, -122.2114051</string>
+
+    <!-- Sight No. 5 -->
+    <string name="S5_name_Guild">The Guild</string>
+    <string name="S5_address_Guild">The Guild Theatre, 949 El Camino Real, Menlo Park, CA, USA</string>
+    <string name="S5_desc_Guild">Dating back to 1926, The Guild is a historic local theater that
+        will transport you back in time. Popular mostly with an older crowd, this movie theater has
+        been getting a lot of buzz recently among twenty-somethings. The retro little theater is
+        also a really fun place to meet new people with similar interests at different shows. There
+        are a lot of screenings of cult favorites like Rocky Horror Picture Show as well as indie
+        and foreign films which make for fun date nights and a great place to hang out with old friends.</string>
+    <string name="S5_site_Guild">www.guildtheatre.co.za/</string>
+    <string name="S5_location_Guild">37.4524412, -122.1834688 </string>
+
+    <!-- Sight No. 6 -->
+    <string name="S6_name_DutchGoose">The Dutch Goose</string>
+    <string name="S6_address_DutchGoose">The Dutch Goose, 3567 Alameda De Las Pulgas, Menlo Park, CA, USA</string>
+    <string name="S6_desc_DutchGoose">If you\'re new in town or want to grab a drink with co-workers,
+        the Dutch Goose is your premier destination. Inside, you\'ll find a classic bar scene with
+        your basic burgers-and-fries kind of menu to go with the ice cold beers on tap. It isn\'t the
+        menu people come for, though. Besides the usual TV\'s, there are some cool old-school arcade
+        games that remind you that this hangout has been around since the 1960\'s. Behind the building,
+        there is a heated patio area where everyone hangs out and mingles. It\'s like a backyard BBQ
+        with a hundred new friends.</string>
+    <string name="S6_site_DutchGoose">http://www.dutchgoose.net/</string>
+    <string name="S6_location_DutchGoose">37.4320507, -122.2037716</string>
+
+    <!-- Sight No. 7 -->
+    <string name="S7_name_DrivingThrAtherton">Driving Through Atherton</string>
+    <string name="S7_address_DrivingThrAtherton">Atherton, CA, USA</string>
+    <string name="S7_desc_DrivingThrAtherton">Just past the city limits of Menlo Park, there is a
+        little town called Atherton. If it sounds familiar, it might be because it was named the
+        richest zip code in the entire country in the year 2015. Gorgeous mansions and beautiful
+        estates line the streets of this posh little suburban town. Driving through Atherton,
+        you\'ll see the reality that is the thriving tech movement when you pass the homes of several
+        noted Silicon Valley entrepreneurs and moguls.</string>
+    <string name="S7_site_DrivingThrAtherton">null</string>
+    <string name="S7_location_DrivingThrAtherton">37.4497917,-122.2353955</string>
+
+    <!-- Sight No. 8 -->
+    <string name="S8_name_PaceAnT">Pace Art and Technology</string>
+    <string name="S8_address_PaceAnT">300 El Camino Real, Menlo Park, CA 94025-5239</string>
+    <string name="S8_desc_PaceAnT">Pace Art &amp; Technology, founded by Pace President Marc Glimcher,
+        is the gallery\'s new program dedicated to collaboration with interdisciplinary art groups,
+        collectives and studios whose works explore the confluence of art and technology. The program
+        is an expansion of Pace\'s longstanding commitment to artistic approaches that emphasize
+        digital and technological methods.</string>
+    <string name="S8_site_PaceAnT">http://www.pacegallery.com/</string>
+    <string name="S8_location_PaceAnT">37.4492117, -122.2446009</string>
+
+    <!-- Sight No. 9 -->
+    <string name="S9_name_AutoVino">AutoVino</string>
+    <string name="S9_address_AutoVino">205 Constitution Dr, Menlo Park, CA 94025-1108</string>
+    <string name="S9_desc_AutoVino">AutoVino is a state-of-the-art luxury car and fine wine storage
+        facility. Mr. Giurlani, part of a family olive oil import business in San Francisco has a
+        penchant for classic, and luxury cars. Trouble is he soon needed a place to store them.
+        Not finding anything satisfactory, he built one. Climate controlled, dust free and offering
+        services tailored to fine car owners (hand washing after a Sunday drive), he now has rare
+        museum quality cars, exotics and \"cherry\" muscle cars parked in his showroom. This concept
+        is so popular he offers club memberships. His Woodside Vineyards winery and winemaker is
+        here too and he stores wine collections for oneophiles.</string>
+    <string name="S9_site_AutoVino">http://auto-vino.com/</string>
+    <string name="S9_location_AutoVino">37.4833064, -122.2401453</string>
+
+    <!-- Sight No. 10 -->
+    <string name="S10_name_MilitaryVT">Military Vehicle Tech. Foundation</string>
+    <string name="S10_address_MilitaryVT">419 Old Spanish Trl, Menlo Park, CA 94028-8133</string>
+    <string name="S10_desc_MilitaryVT">The Military Vehicle Technology Foundation oversees one of
+        the largest and most significant collections of historical military vehicles in the world.
+        Our goal is to acquire, restore, and interpret the historical significance of 20th and 21st
+        century military vehicles. Domestic and foreign combat vehicles such as tanks, armored cars,
+        self-propelled artillery, and other technically interesting mobile platforms are the focus
+        of the collection. We maintain an extensive technical library that describes many vehicles
+        down to the part level. Aside from the vehicles, there are towed artillery, antitank, and
+        antiaircraft guns.</string>
+    <string name="S10_site_MilitaryVT">http://www.mvtf.org/</string>
+    <string name="S10_location_MilitaryVT">37.335549, -122.1926127</string>
+
+
+    <!-- Strings for all Landmarks -->
+
+    <!-- Landmark No. 1 -->
+    <string name="L1_name_Fremont">Fremont Park</string>
+    <string name="L1_address_Fremont">Santa Cruz Avenue &amp; University Dr, Menlo Park, CA 94025</string>
+    <string name="L1_desc_Fremont">Located in the heart of Fremont, Central Park — Lake Elizabeth
+        offers a variety of activities with a gorgeous view of the Mission Peak Hills and Lake
+        Elizabeth. Central Park is set on 450+ acres with an 80+ acre lake and 2 mile pedway around
+        the lake. The park has much to offer including reserved picnic sites, drop-in picnic sites,
+        children\'s play areas, basketball, tennis, fishing, skate park, and seasonal waterpark
+        (Aqua Adventure Waterpark), boat rentals, launches, and storage. Our facilities and picnic
+        areas create a perfect atmosphere for any occasion — from Birthday Parties, Family /
+        Corporate Picnics or BBQ, Baby Showers, Anniversaries, Family Reunions, and more!</string>
+    <string name="L1_site_Fremont">https://www.fremont.gov/317/Central-Park</string>
+    <string name="L1_location_Fremont">39.1972692, -124.010499</string>
+
+    <!-- Landmark No. 2 -->
+    <string name="L2_name_PaloAltoTW">The Palo Alto Tower Well</string>
+    <string name="L2_address_PaloAltoTW">201 Alma St, Palo Alto, CA 94301</string>
+    <string name="L2_desc_PaloAltoTW">At one point, it was close to becoming a tall, cylindrical
+        single-family home, a museum or a day care center. In the end, the historic Tower Well,
+        Palo Alto\'s first water tower, is going to keep its original identity. The tower, built in
+        1911 to hold the city\'s water supply, will now be surrounded by a park and plaza. The tower
+        has 7-foot to 10-foot thick walls with steel reinforcements. The upper 25 percent of the
+        tower was used to store 155,000 gallons of water supplied by the now abandoned well on the
+        corner of the site.</string>
+    <string name="L2_site_PaloAltoTW">https://www.paloaltoonline.com/weekly/morgue/news/2000_Apr_5.TOWER.html</string>
+    <string name="L2_location_PaloAltoTW">37.4256293, -122.2053904</string>
+
+    <!-- Landmark No. 3 -->
+    <string name="L3_name_Hanna">Hanna House</string>
+    <string name="L3_address_Hanna">737 Frenchmans Rd, Stanford, CA 94305</string>
+    <string name="L3_desc_Hanna">Hanna House was designed by Frank Lloyd Wright in 1936 for Stanford
+        Professor Paul Hanna and his wife, Jean, specialists in childhood education. Wright had
+        become interested in designing elegant and affordable homes for the American middle class to
+        create a more harmonious, enlightened society. The long-term collaboration between the Hannas
+        and Wright resulted in an unprecedented design: a house based on hexagonal geometry, with no
+        right angles in the floor plan. This radical experimentation allowed Wright to explore open
+        spatial planning. Hanna House was a turning point in his career, leading to ideas later
+        evidenced in the Guggenheim Museum in New York. The Hannas lived in the house until giving
+        it to Stanford in 1975. It housed four university provosts until suffering severe damage in
+        the 1989 Loma Prieta earthquake. It underwent complex restoration, made complicated by its
+        unique design, and reopened to the public in 1999.</string>
+    <string name="L3_site_Hanna">https://hannahousetours.stanford.edu/</string>
+    <string name="L3_location_Hanna">38.377139, -122.7486817</string>
+
+    <!-- Landmark No. 4 -->
+    <string name="L4_name_AngelOG">Angel of Grief</string>
+    <string name="L4_address_AngelOG">Near Intersection of Palm Dr &amp; Arboretum Rd, Stanford University,
+        Stanford, CA 94305</string>
+    <string name="L4_desc_AngelOG">Not long ago, the mourning \"Angel of Grief\" statue that marks the
+        Arboretum grave of Jane Stanford\'s brother Henry Clay Lathrop was truly a sorrowful sight.
+        An act of vandalism had stolen the angel\'s left arm and left a rusting piece of iron sticking
+        out of the marble. The wingtips and some of the fingers on the lichen-stained angel\'s
+        remaining arm were missing, and the black-and-white terrazzo tile around the base was crumbling.
+        In fact, the whole area - a quiet section of the Arboretum once planned as the site of the
+        Stanfords\' country mansion — was in sad shape six years ago when Chris Christofferson,
+        now director of Facilities Operations, came to campus for a job interview.</string>
+    <string name="L4_site_AngelOG">http://news.stanford.edu/news/2001/april18/mausoleum-418.html</string>
+    <string name="L4_location_AngelOG">37.4324212, -122.1736371</string>
+
+    <!-- Landmark No. 5 -->
+    <string name="L5_name_StoneRiverAG">Stone River - Andy Goldsworthy</string>
+    <string name="L5_address_StoneRiverAG">Stanford University, Palm Dr &amp; Museum Way, Stanford, CA 94035</string>
+    <string name="L5_desc_StoneRiverAG">Stone River is a wall-like serpentine sculpture set in about
+        three acres of land to the northeast of the Iris &amp; B. Gerald Cantor Center for Visual Arts.
+        It is about 3 1/2 feet high and about 4 feet wide at its base. It is made of more than 6,500
+        stones, including about 700 triangular coping stones weighing between 20 and 50 pounds each
+        that top the sculpture. Each coping stone was individually shaped at a different angle to
+        fit the wall precisely. The total weight of the piece is about 128 tons. Goldsworthy first
+        visited Stanford over a year ago to choose the site and consider the project. It was his
+        vision to employ stone that had a relationship to the university.</string>
+    <string name="L5_site_StoneRiverAG">https://museum.stanford.edu/news_room/archived_acquisitions_goldsworthy.html</string>
+    <string name="L5_location_StoneRiverAG">37.4332523, -122.1715022</string>
+
+    <!-- Landmark No. 6 -->
+    <string name="L6_name_Rengstorff">Rengstorff House</string>
+    <string name="L6_address_Rengstorff">3070 N Shoreline Blvd, Mountain View, CA 94043</string>
+    <string name="L6_desc_Rengstorff">The Rengstorff House is Mountain View\'s oldest historic house
+        and is one of the finest examples of Victorian Italianate architecture on the West Coast.
+        While the Rengstorff House is a wonderful example of architecture in its own right, it is
+        also a prime model of adaptive reuse. Today this beautifully restored historic house museum
+        provides the perfect setting for visitors to acquaint themselves with the attributes of the
+        19th century. The Friends of \"R\" House invite you come to the Rengstorff House and experience
+        one of a kind exhibits, living history programs, memorable holiday events, and much more.</string>
+    <string name="L6_site_Rengstorff">http://r-house.org/</string>
+    <string name="L6_location_Rengstorff">37.4314795, -122.089319</string>
+
+    <!-- Landmark No. 7 -->
+    <string name="L7_name_HP">HP Garage</string>
+    <string name="L7_address_HP">367 Addison Ave, Palo Alto, CA 94309</string>
+    <string name="L7_desc_HP">In 1938 David and Lucile Packard got married and rented the first floor
+        of the house at 367 Addison Avenue in Palo Alto. The simple one car garage became the HP
+        workshop and the little shack out back became Bill Hewlett\'s home. In 1989 California named
+        the garage \"the birthplace of Silicon Valley\" and made it a California Historical Landmark.
+        This home was built in 1905 and remained a rental property throughout most of its existence.
+        In 2000, HP decided that they needed to acquire the house so they could properly preserve
+        its history. What was a modest middle class home in the 1930s was bought for 1.7 million
+        dollars in 2000. Over the next 5 years, the house was restored back to what it was like in
+        1939 (except where compliance with modern code didn\'t allow.) In 2007, the property was
+        added to the National Register of Historic Places.</string>
+    <string name="L7_site_HP">http://www.hpmuseum.org/garage/garage.htm</string>
+    <string name="L7_location_HP">37.4430328, -122.156808</string>
+
+    <!-- Landmark No. 8 -->
+    <string name="L8_name_HooverT">Hoover Tower</string>
+    <string name="L8_address_HooverT">550 Serra Mall, Stanford, CA 94305</string>
+    <string name="L8_desc_HooverT">At the top of the tower, visitors can see a carillon of 48 bells.
+        The original 35 bells were cast of bronze in Tournai, Belgium, and were a gift of the
+        Belgian-American Education Foundation. The largest bell of the original 35 is inscribed,
+        \"UNO PRO PACE SONO\" which means \"for peace alone do I ring\". Following a two-year refurbishment
+        at the Royal Eijsbouts foundry in the Netherlands, the carillon returned to the tower in 2002.
+        The restoration replaced eleven bells with newly cast ones and the addition of thirteen bells
+        increased the instrument\'s range to four octaves. With a new keyboard and 48 bells tuned to
+        concert pitch, the carillon makes beautiful music for special university events.</string>
+    <string name="L8_site_HooverT">http://visit.stanford.edu/plan/guides/hoover.html</string>
+    <string name="L8_location_HooverT">37.4276114, -122.1691601</string>
+
+    <!-- Landmark No. 9 -->
+    <string name="L9_name_CourthouseSq">Courthouse Square</string>
+    <string name="L9_address_CourthouseSq">2200 Broadway, Redwood City, CA 94063</string>
+    <string name="L9_desc_CourthouseSq">Courthouse Square is a backlot located at Universal Studios.
+        The set is composed of several facades that form an archetypal American town square with a
+        courthouse as its centerpiece. The set is most famous for being featured as downtown Hill
+        Valley in the Back to the Future trilogy, and as Kingston Falls in the Gremlins series.
+        Prior to the Back to the Future series, the area was known as Mockingbird Square due to its
+        role in the film To Kill a Mockingbird. It has been severely damaged by fire several times,
+        including in 1957, 1990 and 2008. It was reconstructed after each incident.</string>
+    <string name="L9_site_CourthouseSq">https://en.wikipedia.org/wiki/Courthouse_Square</string>
+    <string name="L9_location_CourthouseSq">39.396581, -76.5887717</string>
+
+    <!-- Landmark No. 10 -->
+    <string name="L10_name_Lathrop">Lathrop House</string>
+    <string name="L10_address_Lathrop">627 Hamilton St, Redwood City, CA 94063</string>
+    <string name="L10_desc_Lathrop">Lathrop House is located in the center of Redwood City\'s
+        downtown area at 627 Hamilton Avenue, behind the old Domed Courthouse and opposite the Hall
+        of Justice which is built on the site of \"California Square\" – a Spanish plaza style park –
+        deeded to the citizens of Redwood City in perpetuity by the original landholders; the Arguello
+        family and Mezes family. One of the Peninsula\'s oldest mansions, Lathrop House is an
+        architectural treasure built in 1863 by San Mateo County\'s first assessor-clerk-recorder and
+        chairman of the Board of Supervisors, a man who later helped found the Southern Pacific
+        Railroad and owner of a large tract of land in the Menlo Park area</string>
+    <string name="L10_site_Lathrop">http://www.lathrophouse.org/</string>
+    <string name="L10_location_Lathrop">37.487956, -122.232132</string>
+
+
+    <!-- Strings for all Coffee Shops -->
+
+    <!-- Coffee Shop No. 1 -->
+    <string name="C1_name_CBorrone">Cafe Borrone</string>
+    <string name="C1_address_CBorrone">1010 El Camino Real #110, Menlo Park, CA 94025, USA</string>
+    <string name="C1_desc_CBorrone">Great food in downtown Menlo Park. Nice patio for
+        enjoying the great weather.  Good sandwiches and salads. Ingredients are fresh. Great place
+        to have a morning coffee or sit in the sun with afternoon tea or beer!</string>
+    <string name="C1_site_CBorrone">http://www.cafeborrone.com/</string>
+    <string name="C1_location_CBorrone">37.4536631, -122.2519892</string>
+
+    <!-- Coffee Shop No. 2 -->
+    <string name="C2_name_Jasons">Jason\'s Cafe</string>
+    <string name="C2_address_Jasons">1246 El Camino Real, Menlo Park, CA 94025, USA</string>
+    <string name="C2_desc_Jasons">A classic American grill with a warm and inviting neighborhood
+        feel. The relaxed setting offers casual, yet sophisticated, dining with a menu that
+        highlights regional and seasonal ingredients. An extensive wine-by-the-glass and craft brew
+        selection is also featured.Open for breakfast, lunch, dinner and late night snacks.</string>
+    <string name="C2_site_Jasons">null</string>
+    <string name="C2_location_Jasons">37.454862, -122.1871856</string>
+
+    <!-- Coffee Shop No. 3 -->
+    <string name="C3_name_Coupa">Coupa Cafe</string>
+    <string name="C3_address_Coupa">538 Ramona St, Palo Alto, CA 94301-1709</string>
+    <string name="C3_desc_Coupa">Coupa café on Ramona avenue has a charm of its own. The place itself
+        has a historic feel and the venezuelian specialties are very tasty. The salads and pastas are
+        also very good. My favorite salads are the Beverly and the Cobb and among the pastas I
+        recommend the chicken alfredo. Very nice place also to enjoy a glass of wine and a light
+        dinner in the evening.
+</string>
+    <string name="C3_site_Coupa">http://www.coupacafe.com/</string>
+    <string name="C3_location_Coupa">37.4446074, -122.2315842</string>
+
+    <!-- Coffee Shop No. 4 -->
+    <string name="C4_name_MColette">Mademoiselle Colette</string>
+    <string name="C4_address_MColette">816 Santa Cruz Ave, Menlo Park, CA 94025-4610</string>
+    <string name="C4_desc_MColette"> Debora Ferrand is the owner/founder of Mademoiselle Colette.
+        She has graduated from the « Cordon Bleu »,and has further developed an innate inspiration
+        for delicate pastries by attending the national school of Pastry in France (School of Alain Ducasse)
+        where she rubbed shoulders with chef Jean-Marie Hiblot, of the well known Plaza Athene in Paris.
+        Well World Traveled, Debora has continued to innovate and come up with new creations, inspired
+        by her many different cultural experiences while constantly remaining dedicated to her
+        ultimate French flair. </string>
+    <string name="C4_site_MColette">http://www.mademoisellecolette.com/</string>
+    <string name="C4_location_MColette">37.4508996, -122.1876101</string>
+
+    <!-- Coffee Shop No. 5 -->
+    <string name="C5_name_AnnsCoffee">Ann\'s Coffee Shop</string>
+    <string name="C5_address_AnnsCoffee">772 Santa Cruz Ave, Menlo Park, CA 94025–4514</string>
+    <string name="C5_desc_AnnsCoffee">This place has been around for a long time and the food is great.
+        Ann\'s changed hands years ago but never missed a step of quality.
+        The eggs seem to be single cracked and the pancakes are memorable. The staff are pleasant
+        and always willing to just do the extra.</string>
+    <string name="C5_site_AnnsCoffee">null</string>
+    <string name="C5_location_AnnsCoffee">37.4513549, -122.1873555</string>
+
+    <!-- Coffee Shop No. 6 -->
+    <string name="C6_name_PBaguette">Paris Baguette</string>
+    <string name="C6_address_PBaguette">383 University Ave, Palo Alto, CA 94301–1717</string>
+    <string name="C6_desc_PBaguette">We provide great coffee and pastries, atmosphere resembling a
+        French bar. Most people like to spend their breakfast time here, working on their laptops or
+        reading a newspaper - free internet wifi connection available. We are always open,
+        including on Sundays and holidays!</string>
+    <string name="C6_site_PBaguette">https://www.facebook.com/PBPaloAlto</string>
+    <string name="C6_location_PBaguette">37.4471832, -122.2308279</string>
+
+    <!-- Coffee Shop No. 7 -->
+    <string name="C7_name_BlueGarden">Blue Garden Cafe</string>
+    <string name="C7_address_BlueGarden">75 Arbor Rd, Ste V, Menlo Park, CA 94025–5367</string>
+    <string name="C7_desc_BlueGarden">JW Catering is a premiere catering company proudly serving the
+        bay area for over 10 years. We are honored to be the food provider for the Blue Garden Cafe.</string>
+    <string name="C7_site_BlueGarden">http://www.bluegardencafe.com/</string>
+    <string name="C7_location_BlueGarden">37.4414235, -122.2491083</string>
+
+    <!-- Coffee Shop No. 8 -->
+    <string name="C8_name_BlueBottle">Blue Bottle Coffee</string>
+    <string name="C8_address_BlueBottle">456 University Ave, Palo Alto, CA 94301–1812</string>
+    <string name="C8_desc_BlueBottle">We work directly with farmers around the world to source the
+        most delicious and sustainable coffees we can find. Then, we roast them to our exacting
+        flavor standards, and serve them to you at peak deliciousness, hopefully alongside a good
+        conversation and some friendly advice. We think it\'s a privilege to deliver the coffees we
+        love, by farmers we admire, into your hands or onto your doorstep. Our people are the kindest,
+        most hard working and talented in the business. We\'re an impossibly eclectic group of coffee
+        experts, artists, writers, sensory scientists, bakers, designers, and all-around dreamers.</string>
+    <string name="C8_site_BlueBottle">https://bluebottlecoffee.com/</string>
+    <string name="C8_location_BlueBottle">37.4475588, -122.1617385</string>
+
+    <!-- Coffee Shop No. 9 -->
+    <string name="C9_name_Tootsies">Tootsies</string>
+    <string name="C9_address_Tootsies">700 Welch Rd, Suite #150, Palo Alto, CA 94304–1502</string>
+    <string name="C9_desc_Tootsies">Tootsie\'s is a hidden gem full of delicious eats and treats.
+        Just outside the Stanford Mall you will find this charming rustic brick building with indoor
+        and outdoor seating. We serve breakfast with a large variety of coffee options, brunch, and lunch.</string>
+    <string name="C9_site_Tootsies">https://www.facebook.com/TootsiesBarn/</string>
+    <string name="C9_location_Tootsies">37.4375753, -122.2430491</string>
+
+    <!-- Coffee Shop No. 10 -->
+    <string name="C10_name_Joanies">Joanie\'s Cafe</string>
+    <string name="C10_address_Joanies">405 S California Ave, Palo Alto, CA 94306-1832</string>
+    <string name="C10_desc_Joanies">A classic American grill with a warm and inviting neighborhood
+        feel. The relaxed setting offers casual, yet sophisticated, dining with a menu that
+        highlights regional and seasonal ingredients. An extensive wine-by-the-glass and craft brew
+        selection is also featured.Open for breakfast, lunch, dinner and late night snacks.</string>
+    <string name="C10_site_Joanies">http://joaniescafepaloalto.com/</string>
+    <string name="C10_location_Joanies">37.4263997, -122.1467714</string>
+
+</resources>
