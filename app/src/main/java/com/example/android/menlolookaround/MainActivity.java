@@ -1,9 +1,13 @@
 package com.example.android.menlolookaround;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Display;
+import android.view.Surface;
+import android.view.WindowManager;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,7 +28,16 @@ public class MainActivity extends AppCompatActivity {
         // Find the tab layout that shows the tabs
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
-        tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
+
+        // Detect the orientation  of the device and then set the mode of TabLayout accordingly
+        Display display = ((WindowManager) getSystemService(Context.WINDOW_SERVICE))
+                .getDefaultDisplay();
+        int rotation = display.getRotation();
+        if (rotation == Surface.ROTATION_0) {
+            tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
+        } else {
+            tabLayout.setTabMode(TabLayout.MODE_FIXED);
+        }
 
         // Connect the tab layout with the view pager. This will
         //   1. Update the tab layout when the view pager is swiped
