@@ -1,4 +1,4 @@
-package com.example.android.menlolookaround;
+package com.pratiksymz.android.menlolookaround;
 
 
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+
+import com.example.android.menlolookaround.R;
 
 import java.util.ArrayList;
 

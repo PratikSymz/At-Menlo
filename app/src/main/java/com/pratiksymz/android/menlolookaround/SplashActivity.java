@@ -1,4 +1,4 @@
-package com.example.android.menlolookaround;
+package com.pratiksymz.android.menlolookaround;
 
 import android.app.Activity;
 import android.content.Intent;

@@ -1,4 +1,4 @@
-package com.example.android.menlolookaround;
+package com.pratiksymz.android.menlolookaround;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -18,6 +18,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.android.menlolookaround.R;
 
 import java.util.ArrayList;
 

@@ -1,10 +1,12 @@
-package com.example.android.menlolookaround;
+package com.pratiksymz.android.menlolookaround;
 
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.example.android.menlolookaround.R;
 
 public class PlacePagerAdapter extends FragmentPagerAdapter {
 
