@@ -29,9 +29,11 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
-        // Detect the orientation  of the device and then set the mode of TabLayout accordingly
+        // Detect the orientation of the device and then set the mode of TabLayout accordingly
         Display display = ((WindowManager) getSystemService(Context.WINDOW_SERVICE))
                 .getDefaultDisplay();
+
+        // Get the rotation angle of the device and then set the TabLayout mode
         int rotation = display.getRotation();
         if (rotation == Surface.ROTATION_0) {
             tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
