@@ -7,7 +7,7 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/menlo_park_logo"/>
+            android:src="@drawable/menlo_park_california_logo"/>
     </item>
 
 </layer-list>
