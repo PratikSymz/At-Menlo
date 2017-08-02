@@ -8,8 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.example.android.menlolookaround.R;
-
 import java.util.ArrayList;
 
 /**

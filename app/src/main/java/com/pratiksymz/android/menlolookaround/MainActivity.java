@@ -9,8 +9,6 @@ import android.view.Display;
 import android.view.Surface;
 import android.view.WindowManager;
 
-import com.example.android.menlolookaround.R;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override

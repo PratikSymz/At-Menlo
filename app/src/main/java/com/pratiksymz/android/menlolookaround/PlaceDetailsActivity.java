@@ -10,8 +10,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.android.menlolookaround.R;
-
 
 public class PlaceDetailsActivity extends AppCompatActivity {
 
