@@ -26,8 +26,10 @@ public class PlacePagerAdapter extends FragmentPagerAdapter {
             return new RestaurantsFragment();
         } else if (position == 2) {
             return new LandmarksFragment();
-        } else {
+        } else if (position == 3) {
             return new CoffeeShopsFragment();
+        } else {
+            return new MapViewFragment();
         }
     }
 
@@ -35,7 +37,7 @@ public class PlacePagerAdapter extends FragmentPagerAdapter {
     public int getCount() {
 
         //Returns the number of items of the Viewpager
-        return 4;
+        return 5;
     }
 
     @Override
@@ -47,8 +49,10 @@ public class PlacePagerAdapter extends FragmentPagerAdapter {
             return mContext.getString(R.string.restaurants);
         } else if (position == 2) {
             return mContext.getString(R.string.landmarks);
-        } else {
+        } else if (position == 3) {
             return mContext.getString(R.string.coffee);
+        } else {
+            return "Map Locations";
         }
     }
 }
