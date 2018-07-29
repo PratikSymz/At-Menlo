@@ -1,4 +1,4 @@
-package com.pratiksymz.android.menlolookaround;
+package com.pratiksymz.android.menlolookaround.fragments;
 
 
 import android.os.Bundle;
@@ -8,6 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
+import com.pratiksymz.android.menlolookaround.R;
+import com.pratiksymz.android.menlolookaround.adapters.PlaceAdapter;
+import com.pratiksymz.android.menlolookaround.models.Place;
+
 import java.util.ArrayList;
 
 /**
@@ -15,6 +19,8 @@ import java.util.ArrayList;
  */
 public class SightsFragment extends Fragment {
 
+    // Initialize an ArrayList for sights
+    public ArrayList<Place> sights;
 
     public SightsFragment() {
         // Required empty public constructor
@@ -28,44 +34,43 @@ public class SightsFragment extends Fragment {
         // Inflate the list
         View rootView = inflater.inflate(R.layout.place_list, container, false);
 
-        // Create the ArrayList for the places
-        ArrayList<Place> places = new ArrayList<>();
+        // Create the ArrayList for the sights
+        sights = new ArrayList<>();
 
-        // Add the places to the ArrayList
-        places.add(new Place(getString(R.string.S1_name_Facebook), getString(R.string.S1_address_Facebook),
+        // Add all the sights to the ArrayList
+        sights.add(new Place(getString(R.string.S1_name_Facebook), getString(R.string.S1_address_Facebook),
                 getString(R.string.S1_desc_Facebook), R.drawable.s1_facebook_final, getString(R.string.S1_site_Facebook),
                 getString(R.string.S1_location_Facebook)));
-        places.add(new Place(getString(R.string.S2_name_Keplers), getString(R.string.S2_address_Keplers),
+        sights.add(new Place(getString(R.string.S2_name_Keplers), getString(R.string.S2_address_Keplers),
                 getString(R.string.S2_desc_Keplers), R.drawable.s2_keplers_final, getString(R.string.S2_site_Keplers),
                 getString(R.string.S2_location_Keplers)));
-        places.add(new Place(getString(R.string.S3_name_CheekyMToys), getString(R.string.S3_address_CheekyMToys),
+        sights.add(new Place(getString(R.string.S3_name_CheekyMToys), getString(R.string.S3_address_CheekyMToys),
                 getString(R.string.S3_desc_CheekyMToys), R.drawable.s3_cheeky_final, getString(R.string.S3_site_CheekyMToys),
                 getString(R.string.S3_location_CheekyMToys)));
-        places.add(new Place(getString(R.string.S4_name_SharonPark), getString(R.string.S4_address_SharonPark),
+        sights.add(new Place(getString(R.string.S4_name_SharonPark), getString(R.string.S4_address_SharonPark),
                 getString(R.string.S4_desc_SharonPark), R.drawable.s4_sharonpark_final, getString(R.string.S4_site_SharonPark),
                 getString(R.string.S4_location_SharonPark)));
-        places.add(new Place(getString(R.string.S5_name_Guild), getString(R.string.S5_address_Guild),
+        sights.add(new Place(getString(R.string.S5_name_Guild), getString(R.string.S5_address_Guild),
                 getString(R.string.S5_desc_Guild), R.drawable.s5_guild_final, getString(R.string.S5_site_Guild),
                 getString(R.string.S5_location_Guild)));
-        places.add(new Place(getString(R.string.S6_name_DutchGoose), getString(R.string.S6_address_DutchGoose),
+        sights.add(new Place(getString(R.string.S6_name_DutchGoose), getString(R.string.S6_address_DutchGoose),
                 getString(R.string.S6_desc_DutchGoose), R.drawable.s6_dutchgoose_final, getString(R.string.S6_site_DutchGoose),
                 getString(R.string.S6_location_DutchGoose)));
-        places.add(new Place(getString(R.string.S7_name_DrivingThrAtherton), getString(R.string.S7_address_DrivingThrAtherton),
+        sights.add(new Place(getString(R.string.S7_name_DrivingThrAtherton), getString(R.string.S7_address_DrivingThrAtherton),
                 getString(R.string.S7_desc_DrivingThrAtherton), R.drawable.s7_atherton_final, getString(R.string.S7_site_DrivingThrAtherton),
                 getString(R.string.S7_location_DrivingThrAtherton)));
-        places.add(new Place(getString(R.string.S8_name_PaceAnT), getString(R.string.S8_address_PaceAnT),
+        sights.add(new Place(getString(R.string.S8_name_PaceAnT), getString(R.string.S8_address_PaceAnT),
                 getString(R.string.S8_desc_PaceAnT), R.drawable.s8_pace_final, getString(R.string.S8_site_PaceAnT),
                 getString(R.string.S8_location_PaceAnT)));
-        places.add(new Place(getString(R.string.S9_name_AutoVino), getString(R.string.S9_address_AutoVino),
+        sights.add(new Place(getString(R.string.S9_name_AutoVino), getString(R.string.S9_address_AutoVino),
                 getString(R.string.S9_desc_AutoVino), R.drawable.s9_autovino_final, getString(R.string.S9_site_AutoVino),
                 getString(R.string.S9_location_AutoVino)));
-        places.add(new Place(getString(R.string.S10_name_MilitaryVT), getString(R.string.S10_address_MilitaryVT),
+        sights.add(new Place(getString(R.string.S10_name_MilitaryVT), getString(R.string.S10_address_MilitaryVT),
                 getString(R.string.S10_desc_MilitaryVT), R.drawable.s10_military_final, getString(R.string.S10_site_MilitaryVT),
                 getString(R.string.S10_location_MilitaryVT)));
 
-
-        // Create a new adapter that takes the list of sights(places) as input
-        PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
+        // Create a new adapter that takes the list of sights as input
+        PlaceAdapter adapter = new PlaceAdapter(getActivity(), sights);
 
         // Find a reference to the {@link ListView} in the layout
         ListView sightListView = (ListView) rootView.findViewById(R.id.place_list);
@@ -77,5 +82,4 @@ public class SightsFragment extends Fragment {
         // Return the fragment rootView
         return rootView;
     }
-
 }

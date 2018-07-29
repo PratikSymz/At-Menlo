@@ -1,4 +1,4 @@
-package com.pratiksymz.android.menlolookaround;
+package com.pratiksymz.android.menlolookaround.models;
 
 public class Place {
 

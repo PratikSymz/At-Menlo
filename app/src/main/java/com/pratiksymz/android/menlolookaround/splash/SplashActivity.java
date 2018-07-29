@@ -1,8 +1,10 @@
-package com.pratiksymz.android.menlolookaround;
+package com.pratiksymz.android.menlolookaround.splash;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.pratiksymz.android.menlolookaround.activities.MainActivity;
 
 public class SplashActivity extends Activity {
 

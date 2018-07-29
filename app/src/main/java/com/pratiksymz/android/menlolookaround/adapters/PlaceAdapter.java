@@ -1,4 +1,4 @@
-package com.pratiksymz.android.menlolookaround;
+package com.pratiksymz.android.menlolookaround.adapters;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -18,6 +18,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.pratiksymz.android.menlolookaround.models.Place;
+import com.pratiksymz.android.menlolookaround.R;
+import com.pratiksymz.android.menlolookaround.activities.PlaceDetailsActivity;
 
 import java.util.ArrayList;
 
