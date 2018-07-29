@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pratiksymz.android.menlolookaround">
-
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-    <uses-permission android:name="com.dev.cromer.jason.coverme.permission.MAPS_RECEIVE" />
+    package="com.symzdev.android.atmenlo">
 
     <application
         android:allowBackup="true"
@@ -17,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
-            android:name="com.pratiksymz.android.menlolookaround.splash.SplashActivity"
+            android:name="com.symzdev.android.atmenlo.splash.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,28 +19,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name="com.pratiksymz.android.menlolookaround.activities.MainActivity"
+            android:name="com.symzdev.android.atmenlo.activities.MainActivity"
             android:theme="@style/MainActivityTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name="com.pratiksymz.android.menlolookaround.activities.PlaceDetailsActivity"
-            android:parentActivityName="com.pratiksymz.android.menlolookaround.activities.MainActivity">
+            android:name="com.symzdev.android.atmenlo.activities.PlaceDetailsActivity"
+            android:parentActivityName="com.symzdev.android.atmenlo.activities.MainActivity">
             <action android:name="android.intent.action.VIEW" />
             <data android:scheme="geo" />
             <category android:name="android.intent.category.DEFAULT" />
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.pratiksymz.android.menlolookaround.activities.MainActivity" />
+                android:value="com.symzdev.android.atmenlo.activities.MainActivity" />
         </activity>
 
-        <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyB7oMgeymnT1MEjsIkqgPiojbsABpZlJG0" />
     </application>
 </manifest>

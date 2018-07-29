@@ -1,4 +1,4 @@
-package com.pratiksymz.android.menlolookaround.activities;
+package com.symzdev.android.atmenlo.activities;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.pratiksymz.android.menlolookaround.R;
+import com.symzdev.android.atmenlo.R;
 
 
 public class PlaceDetailsActivity extends AppCompatActivity {

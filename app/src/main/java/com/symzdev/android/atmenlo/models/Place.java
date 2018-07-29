@@ -1,4 +1,4 @@
-package com.pratiksymz.android.menlolookaround.models;
+package com.symzdev.android.atmenlo.models;
 
 public class Place {
 

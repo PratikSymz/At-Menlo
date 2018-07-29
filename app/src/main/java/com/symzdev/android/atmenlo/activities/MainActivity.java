@@ -1,4 +1,4 @@
-package com.pratiksymz.android.menlolookaround.activities;
+package com.symzdev.android.atmenlo.activities;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,8 +9,8 @@ import android.view.Display;
 import android.view.Surface;
 import android.view.WindowManager;
 
-import com.pratiksymz.android.menlolookaround.adapters.PlacePagerAdapter;
-import com.pratiksymz.android.menlolookaround.R;
+import com.symzdev.android.atmenlo.adapters.PlacePagerAdapter;
+import com.symzdev.android.atmenlo.R;
 
 public class MainActivity extends AppCompatActivity {
 

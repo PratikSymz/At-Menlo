@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Menlo Lookaround</string>
+    <string name="app_name">At Menlo</string>
 
     <string name="name_var">placeName</string>
     <string name="address_var">placeAddress</string>
@@ -17,7 +17,6 @@
     <string name="restaurants">Restaurants</string>
     <string name="landmarks">Landmarks</string>
     <string name="coffee">Coffee Shops</string>
-    <string name="map_locations">Map Locations</string>
 
     <string name="menloPark">Menlo Park</string>
     <string name="homeOfFB">Home Of Facebook</string>

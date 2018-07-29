@@ -1,4 +1,4 @@
-package com.pratiksymz.android.menlolookaround.fragments;
+package com.symzdev.android.atmenlo.fragments;
 
 
 import android.os.Bundle;
@@ -8,9 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.pratiksymz.android.menlolookaround.R;
-import com.pratiksymz.android.menlolookaround.adapters.PlaceAdapter;
-import com.pratiksymz.android.menlolookaround.models.Place;
+import com.symzdev.android.atmenlo.R;
+import com.symzdev.android.atmenlo.adapters.PlaceAdapter;
+import com.symzdev.android.atmenlo.models.Place;
 
 import java.util.ArrayList;
 
